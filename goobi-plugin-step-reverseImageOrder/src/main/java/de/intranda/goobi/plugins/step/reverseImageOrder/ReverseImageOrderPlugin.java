@@ -42,6 +42,12 @@ import ugh.exceptions.PreferencesException;
 import ugh.exceptions.ReadException;
 import ugh.exceptions.WriteException;
 
+/**
+ * Reverses file order in Goobi based on DocLanguage
+ * 
+ * @author Oliver Paetzel
+ *
+ */
 @Log4j
 @PluginImplementation
 public class ReverseImageOrderPlugin implements IStepPluginVersion2 {
