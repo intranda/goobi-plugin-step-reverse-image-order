@@ -62,7 +62,7 @@ public class ReverseImageOrderPlugin implements IStepPluginVersion2 {
 
     @Override
     public String finish() {
-        return null;
+        return returnPath;
     }
 
     @Override
