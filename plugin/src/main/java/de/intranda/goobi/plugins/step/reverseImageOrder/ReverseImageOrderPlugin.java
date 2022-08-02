@@ -40,7 +40,6 @@ import ugh.dl.MetadataType;
 import ugh.dl.Prefs;
 import ugh.exceptions.PreferencesException;
 import ugh.exceptions.ReadException;
-import ugh.exceptions.WriteException;
 
 /**
  * Reverses file order in Goobi based on DocLanguage
@@ -139,7 +138,7 @@ public class ReverseImageOrderPlugin implements IStepPluginVersion2 {
                 reverseImages |= reverseLanguages.contains(meta.getValue());
             }
 
-        } catch (PreferencesException | ReadException | WriteException | IOException | InterruptedException | SwapException | DAOException e) {
+        } catch (PreferencesException | ReadException | IOException | SwapException e) {
             LogEntry le = LogEntry.build(this.step.getProcessId())
                     .withType(LogType.ERROR)
                     .withContent(title + ": Error reading metadata")
