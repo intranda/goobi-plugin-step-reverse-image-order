@@ -12,8 +12,8 @@ This step plugin for the Goobi workflow reverses the file order of images in the
 To be able to use the plugin, the following files must be installed:
 
 ```bash
-/opt/digiverso/goobi/plugins/step/plugin-step-ZZZ-base.jar
-/opt/digiverso/goobi/config/plugin_intranda_step_ZZZ.xml
+/opt/digiverso/goobi/plugins/step/plugin-step-reverse-image-order-base.jar
+/opt/digiverso/goobi/config/plugin_intranda_step_reverseImageOrder.xml
 ```
 
 To use the plugin, it must be selected in a workflow step:

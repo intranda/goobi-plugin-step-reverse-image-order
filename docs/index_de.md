@@ -12,8 +12,8 @@ Dieses Schritt-Plugin für den Goobi-Workflow kehrt die Dateireihenfolge von Bil
 Um das Plugin nutzen zu können, müssen folgende Dateien installiert werden:
 
 ```bash
-/opt/digiverso/goobi/plugins/step/plugin-step-ZZZ-base.jar
-/opt/digiverso/goobi/config/plugin_intranda_step_ZZZ.xml
+/opt/digiverso/goobi/plugins/step/plugin-step-reverse-image-order-base.jar
+/opt/digiverso/goobi/config/plugin_intranda_step_reverseImageOrder.xml
 ```
 
 Für die Verwendung des Plugins muss dieses in einem Arbeitsschritt ausgewählt sein:
