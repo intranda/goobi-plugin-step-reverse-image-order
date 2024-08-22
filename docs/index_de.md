@@ -2,7 +2,7 @@
 title: Bildreihenfolge umkehren
 identifier: intranda_step_reverse_image-order
 description: Step Plugin für die Umkehr der Bilder
-published: false
+published: true
 ---
 
 ## Einführung
@@ -35,5 +35,3 @@ Die Konfiguration des Plugins erfolgt in der Datei `plugin_intranda_step_reverse
 Parameter               | Erläuterung
 ------------------------|------------------------------------
 `language`              | Dieser Parameter gibt eine Liste von Sprachen an, für die die Reihenfolge der Bilder im Dokument umgekehrt werden soll. Die Sprachen werden als ISO-Sprachcodes (z.B. "he" für Hebräisch, "ar" für Arabisch) angegeben. |
-`project`               | Es können mehrere Projekte oder mit "*" alle Projekte angegeben werden, bei denen das Plugin angewendet werden soll. |
-`step`                  | Gibt an, bei welchen Bearbeitungsschritten die Konfiguration für das Umkehren der Reihenfolge gültig sein soll. |
