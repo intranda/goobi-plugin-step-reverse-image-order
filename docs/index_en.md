@@ -2,7 +2,7 @@
 title: Reverse Image Order
 identifier: intranda_step_reverse_image-order
 description: Step Plugin for reversing the order of the images
-published: false
+published: true
 ---
 
 ## Introduction
@@ -34,5 +34,3 @@ The plugin is configured in the file `plugin_intranda_step_reverseImageOrderPlug
 Parameter               | Explanation
 ------------------------|------------------------------------
 `language`              | This parameter specifies a list of languages for which the image order in the document should be reversed. The languages are given as ISO language codes (e.g., "he" for Hebrew, "ar" for Arabic). |
-`project`               | Multiple projects can be specified, or "*" can be used to indicate all projects where the plugin should be applied. |
-`step`                      | Specifies the workflow steps for which the configuration for reversing the order should be valid. |
