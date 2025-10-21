@@ -3,6 +3,10 @@ title: Bildreihenfolge umkehren
 identifier: intranda_step_reverse_image-order
 description: Step Plugin für die Umkehr der Bilder
 published: true
+keywords:
+    - Goobi workflow
+    - Plugin
+    - Step Plugin
 ---
 
 ## Einführung

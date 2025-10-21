@@ -3,6 +3,10 @@ title: Reverse Image Order
 identifier: intranda_step_reverse_image-order
 description: Step Plugin for reversing the order of the images
 published: true
+keywords:
+    - Goobi workflow
+    - Plugin
+    - Step Plugin
 ---
 
 ## Introduction
